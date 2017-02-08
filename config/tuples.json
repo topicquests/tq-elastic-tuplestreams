@@ -1,0 +1,50 @@
+{
+    "core": {
+        "properties": {
+            "tid": {
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "crid": {
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "desc": {
+                "index": "analyzed",
+                "type": "string",
+                "store": true
+            },
+            "srtDt": {
+                "type": "date",
+                "store": true
+            },
+            "cat": {
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "crDt": {
+                "type": "date",
+                "store": true
+            },
+           "lEdDt": {
+                "type": "date",
+                "store": true
+            },
+            "lrDt": {
+                "type": "date",
+                "store": true
+            },
+            "crgtyp": {
+                "index": "not_analyzed",
+                "type": "string",
+                "store": true
+            },
+            "cargo": {
+                "enabled": "false"
+            }
+        }
+    }
+}
